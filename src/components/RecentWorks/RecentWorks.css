@@ -1,0 +1,35 @@
+.recentworks-section {
+    display: inline-block;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.recentworks-title-wrapper {
+    border-left: 2.6px solid cyan;
+    border-radius: 3px;
+    height: 100%;
+    padding: 0 6px;
+}
+
+.recentworks-title {
+    background-color: rgb(36, 35, 35);
+    margin: 0;
+    padding: 4px 0 4px 6px;
+    text-align: left;
+}
+
+.works-wrapper {
+    margin: 8px 0;
+    padding: 10px 6px;
+    /* background-color: rgb(60, 68, 75); */
+}
+
+@media screen and (max-width: 762px) {
+    .recentworks-section {
+        width: 100%;
+    }
+    .recentworks-title-wrapper {
+        width: 76%;
+        margin: auto;
+    }
+}

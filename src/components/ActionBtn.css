@@ -1,0 +1,21 @@
+
+.actionBtn {
+    padding: 12px 1rem;
+    margin: 0 6px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(55, 71, 77);
+    transition: 0.2s;
+}
+
+.actionBtn:hover {
+    transform: scale(1.1);
+}
+
+.actionBtn:focus {
+    border: 1px solid rgb(75, 91, 97);
+}
+
+@media screen and (max-width: 762px) {
+    .actionBtn { padding: 7px 14px; }
+}

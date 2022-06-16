@@ -1,0 +1,91 @@
+
+.header {
+    padding: 0 12px;
+    background-color: rgb(57 64 77);
+    border: 1px solid darkslategray;
+}
+
+.responsive-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+    padding: 12px 0;
+}
+
+.header-title {
+    display: flex;
+    text-align: left;
+}
+
+#title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    text-align: right;
+}
+
+.header-gitIcon {
+    margin: 0 6px;
+}
+
+.header-gitIcon > img {
+    width: 20px;
+    height: auto;
+}
+
+.header-options-toggler {
+    display: block;
+    padding: 0 6px;
+    margin-left: 4px;
+    border-radius: 4px;
+    color: #000;
+    background-color: aquamarine;
+    transition: 0.12s;
+}
+
+.header-items-wrapper {
+    margin: 0;
+}
+
+.header-item {
+    display: inline-block;
+    margin: 0 3px;
+    padding: 6px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 4px;
+    background-color: rgb(30, 54, 66);
+    transition: 0.2s;
+}
+
+.header-item:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.header-item:active {
+    background-color: rgb(44, 64, 57);
+    color: grey;
+}
+
+.header-item > img {
+    width: 12px;
+    height: auto;
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 762px) {
+    .responsive-header { width: 90%; }
+    /* .header-item { font-size: 16px; } */
+}

@@ -1,0 +1,86 @@
+.homesection {
+    background-image: url('wavebg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mypic-wrapper {
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+#mypic {
+    width: 100%;
+    height: auto;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.aboutme-emoji {
+    font-size: 1.7rem;
+    padding: 6px 8px;
+}
+
+.animatedHello {
+    animation: animatedhello 1.6s linear infinite;
+}
+
+.hello-msg {
+    font-weight: 500;
+}
+
+#myname {
+    display: inline;
+    padding: 0 8px;
+    color: #305293;
+    font-weight: 700;
+}
+
+.developer-designer-container {
+    display: inline-block;
+    color: #4c465e;
+}
+
+.typewriter-effect {
+    overflow: hidden;
+    width: 0;
+    border-right: .09em solid orange;
+    white-space: nowrap;
+    animation: typing 2.2s steps(22, end) forwards, blink 0.8s infinite;
+    color: #6b6875;
+}
+
+.my-description {
+    padding: 2rem 0;
+    line-height: 1.4;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+}
+
+@keyframes animatedhello {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+@media screen and (max-width: 762px) {
+    .my-description { font-size: 1.4rem; font-weight: 400; }
+    
+}

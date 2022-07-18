@@ -1,14 +1,13 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import TitleBar from '../TitleBar/TitleBar';
 import './RecentWorks.css';
 
 
 export default function RecentWorks() {
     return (
         <section className='recentworks-section'>
-            <div className='recentworks-title-wrapper'>
-                <h3 className='recentworks-title'>recent works</h3>
-            </div>
+            <TitleBar>Recent Works</TitleBar>
             <div className='works-wrapper'>
                 <div className='container'>
                     <div className='row'>

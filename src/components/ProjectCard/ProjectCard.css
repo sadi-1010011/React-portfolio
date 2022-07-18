@@ -1,3 +1,5 @@
+a { text-decoration: none; }
+
 .projectCard {
     display: flex;
     align-items: center;
@@ -5,11 +7,10 @@
     padding: 16px 12px;
     margin: 14px auto;
     border-radius: 5px;   
-    background-image: url('brushBlue.png');
-    /* background-position: center center; */
+    background-image: url('whiteBackground.png');
+    background-position: center center;
     background-size: cover;
     /* background-color: rgb(37, 37, 46); */
-
 }
 
 .project-thumbnail {
@@ -27,7 +28,7 @@
 }
 
 .project-title {
-    color: #fff;
+    color: #000;
     margin: 8px 0;
     font-size: 1.3rem;
     font-weight: 400;
@@ -36,7 +37,9 @@
 .project-description {
     padding: 0 4px;
     font-size: 0.86rem;
-    color: rgb(146, 164, 182);
+    color: rgb(3, 127, 127);
+    /* color: rgb(74, 88, 90); */
+    text-shadow: 1px 1px white;
 }
 
 @media screen and (max-width: 762px) {

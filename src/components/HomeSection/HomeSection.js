@@ -17,7 +17,7 @@ export default function HomeSection() {
                             <h1 className="no-margin d-inline hello-msg">Hello</h1>
                             <span className="aboutme-emoji animatedHello">🙌</span>
                         </div>
-                        <h3>I'm <h1 id="myname">Sadi.</h1></h3>
+                        <span>I'm <h1 id="myname">Sadi.</h1></span>
                         <div className="developer-designer-container">
                             <div className="typewriter-effect">React developer</div>
                         </div>

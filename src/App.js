@@ -1,3 +1,4 @@
+import React from 'react';
 import Header from './components/Header/Header';
 import HomeSection from './components/HomeSection/HomeSection';
 import RecentWorks from './components/RecentWorks/RecentWorks';
@@ -5,7 +6,6 @@ import ActionBtn from './components/ActionBtn';
 import Footer from './components/Footer/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import TitleBar from './components/TitleBar/TitleBar';
 
 function App() {
   return (
@@ -21,7 +21,6 @@ function App() {
           </div>
         </div>
       </div>
-      <TitleBar>Skill and Tools</TitleBar>
       <Footer />
     </div>
   );

@@ -7,9 +7,9 @@ a { text-decoration: none; }
     padding: 16px 12px;
     margin: 14px auto;
     border-radius: 5px;   
-    background-image: url('whiteBackground.png');
-    background-position: center center;
-    background-size: cover;
+    /* background-image: url('whiteBackground.png'); */
+    /* background-position: center center;
+    background-size: cover; */
     /* background-color: rgb(37, 37, 46); */
 }
 
@@ -17,8 +17,8 @@ a { text-decoration: none; }
     width: 33px;
     height: auto;
     border-radius: 6px;
-    border: 2px solid blue;
-    background-color: darkblue;
+    /* border: 2px solid blue; */
+    background-color: rgb(148, 148, 192);
 }
 
 .project-info-wrapper {
@@ -28,7 +28,7 @@ a { text-decoration: none; }
 }
 
 .project-title {
-    color: #000;
+    color: #fff;
     margin: 8px 0;
     font-size: 1.3rem;
     font-weight: 400;
@@ -36,15 +36,15 @@ a { text-decoration: none; }
 
 .project-description {
     padding: 0 4px;
-    font-size: 0.86rem;
-    color: rgb(3, 127, 127);
-    /* color: rgb(74, 88, 90); */
-    text-shadow: 1px 1px white;
+    font-size: 0.9rem;
+    color: rgb(119, 144, 148);
+    /* color: white; */
+    /* text-shadow: 1px 1px white; */
 }
 
 @media screen and (max-width: 762px) {
     .projectCard {
         padding: 6px 5px;
-        margin: 8px auto;
+        margin: 20px auto;
     }   
 }

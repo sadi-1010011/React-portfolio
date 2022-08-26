@@ -13,6 +13,9 @@
 #mypic {
     width: 100%;
     height: auto;
+    border-radius: 50%;
+    padding: 2.5rem;
+    /* img should be square sized */
 }
 
 .aboutme {
@@ -80,7 +83,12 @@
     100% { transform: rotate(-10deg); }
 }
 
+/* SMARTPHONE SCREEN */
+
 @media screen and (max-width: 762px) {
     .my-description { font-size: 1.4rem; font-weight: 400; }
-    
+    #mypic {
+        padding: 1rem 0 0 2rem;
+        /* img should be square sized */
+    }
 }

@@ -1,14 +1,14 @@
 import React from "react";
 import './HomeSection.css';
-import logo from './logo.svg';
+import avatar from '../../img/avatar.jpg';
 
 export default function HomeSection() {
     return (
         <section className="container homesection">
             <div className="row pt-5 pb-3">
-                <div className="col-4">
+                <div className="col-5">
                     <div className="mypic-wrapper">
-                        <img id="mypic" src={logo} alt="avatar" />
+                        <img id="mypic" src={avatar} alt="avatar" />
                     </div>
                 </div>
                 <div className="col-7">
@@ -26,7 +26,7 @@ export default function HomeSection() {
             </div>
             <div className="row pt-5">
                 <h4 className="my-description">
-                    I like to create useful tools and creative interfaces,<br/>
+                    I like to create intuitive interfaces and useful tools,<br/>
                     simplicity is key to success.<br/><br/>
                 </h4>
             </div>

@@ -1,9 +1,7 @@
 import React from "react";
 import './ProjectCard.css';
 
-import icon from '../../img/downloadIcon.png';
-
-export default function ProjectCard({ title, description }) {
+export default function ProjectCard({ title, description, icon }) {
     return (
         <div className='projectCard'>
             <div className="project-info-wrapper">

@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.263fa8ea.css",
-    "main.js": "/React-portfolio/static/js/main.f4e8d5bd.js",
+    "main.css": "/React-portfolio/static/css/main.74a6d9fb.css",
+    "main.js": "/React-portfolio/static/js/main.569fa5d3.js",
+    "static/media/avatar.jpg": "/React-portfolio/static/media/avatar.a50d11fde1976ffb8e11.jpg",
     "static/media/wavebg.png": "/React-portfolio/static/media/wavebg.47d9102b6a97435cad07.png",
-    "static/media/whiteBackground.png": "/React-portfolio/static/media/whiteBackground.7b8d98616f42db84a9fa.png",
+    "static/media/favicon-typer.png": "/React-portfolio/static/media/favicon-typer.ec5986e927b4193d1372.png",
+    "static/media/favicon-solochatter.png": "/React-portfolio/static/media/favicon-solochatter.ceef9b4a08577deb58d7.png",
+    "static/media/MyResume.pdf": "/React-portfolio/static/media/MyResume.f7a45438654d8c768f10.pdf",
     "static/media/downloadIcon.png": "/React-portfolio/static/media/downloadIcon.c42fb2efe97033e1270d.png",
     "static/media/githubLogoWhite.png": "/React-portfolio/static/media/githubLogoWhite.65a029dd14ae5c405656.png",
-    "static/media/logo.svg": "/React-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-portfolio/index.html",
-    "main.263fa8ea.css.map": "/React-portfolio/static/css/main.263fa8ea.css.map",
-    "main.f4e8d5bd.js.map": "/React-portfolio/static/js/main.f4e8d5bd.js.map"
+    "main.74a6d9fb.css.map": "/React-portfolio/static/css/main.74a6d9fb.css.map",
+    "main.569fa5d3.js.map": "/React-portfolio/static/js/main.569fa5d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.263fa8ea.css",
-    "static/js/main.f4e8d5bd.js"
+    "static/css/main.74a6d9fb.css",
+    "static/js/main.569fa5d3.js"
   ]
 }

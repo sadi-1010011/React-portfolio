@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.74a6d9fb.css",
-    "main.js": "/React-portfolio/static/js/main.569fa5d3.js",
+    "main.css": "/React-portfolio/static/css/main.a5e97bd5.css",
+    "main.js": "/React-portfolio/static/js/main.517f34d0.js",
     "static/media/avatar.jpg": "/React-portfolio/static/media/avatar.a50d11fde1976ffb8e11.jpg",
     "static/media/wavebg.png": "/React-portfolio/static/media/wavebg.47d9102b6a97435cad07.png",
     "static/media/favicon-typer.png": "/React-portfolio/static/media/favicon-typer.ec5986e927b4193d1372.png",
@@ -10,11 +10,11 @@
     "static/media/downloadIcon.png": "/React-portfolio/static/media/downloadIcon.c42fb2efe97033e1270d.png",
     "static/media/githubLogoWhite.png": "/React-portfolio/static/media/githubLogoWhite.65a029dd14ae5c405656.png",
     "index.html": "/React-portfolio/index.html",
-    "main.74a6d9fb.css.map": "/React-portfolio/static/css/main.74a6d9fb.css.map",
-    "main.569fa5d3.js.map": "/React-portfolio/static/js/main.569fa5d3.js.map"
+    "main.a5e97bd5.css.map": "/React-portfolio/static/css/main.a5e97bd5.css.map",
+    "main.517f34d0.js.map": "/React-portfolio/static/js/main.517f34d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.74a6d9fb.css",
-    "static/js/main.569fa5d3.js"
+    "static/css/main.a5e97bd5.css",
+    "static/js/main.517f34d0.js"
   ]
 }

@@ -24,7 +24,6 @@ export default function Header() {
 
     function downloadCV() {
         // download CV 
-        alert('downloading cv');
         const pom = document.createElement('a');
         pom.setAttribute('href', CV);
         pom.setAttribute('download',CV);

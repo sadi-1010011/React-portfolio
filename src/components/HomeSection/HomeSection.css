@@ -3,10 +3,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: animatedflow 60s linear;
+    /* NEW UX UPDATE ! */
 }
 
 .mypic-wrapper {
+    position: relative;
     padding-top: 1rem;
+    padding-left: 2rem;
     overflow: hidden;
 }
 
@@ -15,6 +19,8 @@
     height: auto;
     border-radius: 50%;
     padding: 2.5rem;
+    animation: floatimg 9s linear infinite;
+    /* 2.5 padd at large screen */
     /* img should be square sized */
 }
 
@@ -83,12 +89,27 @@
     100% { transform: rotate(-10deg); }
 }
 
+@keyframes floatimg {
+    0% { border-radius: 50%; }
+    33% { border-radius: 42% 47% 36% 57%; }
+    66% { border-radius: 36% 57% 42% 47%; }
+    100% { border-radius: 50%; }
+}
+
+@keyframes animatedflow {
+    0% { background-position: left center; }
+    50% { background-position: right center; }
+}
+
+
 /* SMARTPHONE SCREEN */
 
 @media screen and (max-width: 762px) {
     .my-description { font-size: 1.4rem; font-weight: 400; }
     #mypic {
-        padding: 1rem 0 0 2rem;
+        padding: 0;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px 2px black;
         /* img should be square sized */
     }
 }

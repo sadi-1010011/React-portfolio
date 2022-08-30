@@ -1,0 +1,41 @@
+
+.screenshot-section {
+    background-color: transparent;
+}
+
+.screenshot-wrapper {
+    display: block;
+    width: 94%;
+    margin: 6px auto;
+    border-radius: 3px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.uidesigns-title {
+    display: inline-block;
+    margin: 0.8rem auto;
+}
+
+.uidesigns-description {
+    color: rgb(172, 165, 165);
+    padding-bottom: 1.6rem;
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    transition: .5s all;
+}
+
+
+/* EXTRA */
+
+.min-height-30 {
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .min-height-30 { min-height: 30vh; }
+}

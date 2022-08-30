@@ -1,0 +1,14 @@
+
+.title-techstack {
+    margin: 0;
+    color: #fff;
+    /* color: rgb(128, 126, 126); */
+}
+
+.description-techstack {
+    color: rgb(172, 165, 165);
+}
+
+.techstack-wrapper {
+    padding-top: 3rem;
+}

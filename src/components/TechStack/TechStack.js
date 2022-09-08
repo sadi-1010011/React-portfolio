@@ -1,8 +1,8 @@
 import React from "react";
 import './TechStack.css';
-import ActionBtn from '../../components/ActionBtn';
 import TechStackCard from "../TechStackCard/TechStackCard";
 import techStackData from '../../data/TechStackData'; // DATA
+// import ActionBtn from '../../components/ActionBtn';
 
 export default function TechStack() {
 
@@ -23,7 +23,7 @@ export default function TechStack() {
                         techStackData.map((tech, index) => <TechStackCard key={index} logo={tech.logo} title={tech.title} />)
                     }
                     
-                <ActionBtn color='#426184' textcolor='white'>View All</ActionBtn>
+                {/* <ActionBtn color='#426184' textcolor='white'>...</ActionBtn> */}
                     
                 </div>
             </div>

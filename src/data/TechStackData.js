@@ -8,6 +8,7 @@ import logoREACT from "../img/techLogo/logo_react.svg";
 import logoNODE from "../img/techLogo/logo_nodejs.svg";
 import logoMONGODB from "../img/techLogo/logo_mongodb.svg";
 import logoPYTHON from "../img/techLogo/logo_python.svg";
+import logoGIT from "../img/techLogo/logo_git.svg";
 // import logoNPM from "../img/techLogo/logo_npm.svg";
 // import logoEXPRESS from "../img/techLogo/";
 
@@ -17,8 +18,9 @@ const techStackData = [
     { logo: logoJS, title: 'JavaScript' },
     { logo: logoBOOTSTRAP, title: 'Bootstrap' },
     { logo: logoREACT, title: 'ReactJs' },
-    { logo: logoNODE, title: 'NodeJs' },
+    { logo: logoGIT, title: 'Git' },
     { logo: logoMONGODB, title: 'MongoDB' },
+    { logo: logoNODE, title: 'NodeJs' },
     { logo: logoPYTHON, title: 'Python' },
     // { logo: logoNPM, title: 'NPM' },
 ];

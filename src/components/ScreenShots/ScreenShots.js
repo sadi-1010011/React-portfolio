@@ -1,20 +1,17 @@
 import React, { useEffect, useRef } from "react";
-// import ActionBtn from "../ActionBtn";
+import ScreenShotsData from '../../data/ScreenShotsData.js';
 import './ScreenShots.css';
-
 import ss1 from '../../img/screenshots/design1.png';
-import ss2 from '../../img/screenshots/design2.png';
-import ss3 from '../../img/screenshots/design3.png';
-import ss4 from '../../img/screenshots/design4.png';
+import ActionBtn from "../ActionBtn.js";
 
 export default function ScreenShots() {
 
-    const ss = [ss1, ss2, ss3, ss4];
+    const ss = ScreenShotsData;
     const screenshot = useRef(null);
 
     useEffect(() => {
         // carousal items n timing
-        window.clearInterval(); // if any exist
+        window.clearTimeout(); // if any exist
         window.setInterval(function() {
             // carousal setup
             const currentItem = screenshot.current;
@@ -34,9 +31,9 @@ export default function ScreenShots() {
                         <img ref={screenshot} className="screenshot" src={ss1} alt="design1" />
                     </div>
                 </div>
-                {/* <div className="col-12 pt-5">
+                <div className="col-12 pt-3">
                     <ActionBtn color='black' textcolor='white'>View All</ActionBtn>
-                </div> */}
+                </div>
             </div>
         </section>
     );

@@ -1,14 +1,14 @@
 import React from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import TitleBar from '../TitleBar/TitleBar';
+import ActionBtn from '../ActionBtn';
 import './RecentWorks.css';
 
 // assets
 import faviconTyper from '../../img/favicon-typer.png';
 import faviconBaseconvrtr from '../../img/favicon-baseconvrtr.png';
 import faviconSolochatter from '../../img/favicon-solochatter.png';
-// import faviconFoodstagram from '../../img/favicon-'
-import icon from '../../img/downloadIcon.png';
+import faviconFoodstagram from '../../img/favicon-foodstagram.png';
 
 
 export default function RecentWorks() {
@@ -25,7 +25,7 @@ export default function RecentWorks() {
                         </div>
                         <div className='col-6 col-lg-3'>
                             <a href='https://sadi-1010011.github.io/foodstagram'>
-                                <ProjectCard title='foodstagram' description='Ecommerce website to order food and snacks online.' icon={ icon } />
+                                <ProjectCard title='foodstagram' description='Ecommerce website to order food and snacks online.' icon={ faviconFoodstagram } />
                             </a>
                         </div>
                         <div className='col-6 col-lg-3'>
@@ -38,6 +38,11 @@ export default function RecentWorks() {
                                 <ProjectCard title='BaseConvrtr' description='useful tool to convert binary number to decimal and vice versa.' icon={ faviconBaseconvrtr } />
                             </a>
                         </div>                        
+                    </div>
+                    <div className='row p-3'>
+                        <div className='col-12'>
+                            <ActionBtn color='darkcyan' textcolor='white'>View All</ActionBtn>
+                        </div>
                     </div>
                 </div>
             </div>

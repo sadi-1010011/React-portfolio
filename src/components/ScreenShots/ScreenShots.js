@@ -32,7 +32,9 @@ export default function ScreenShots() {
                     </div>
                 </div>
                 <div className="col-12 pt-3">
-                    <ActionBtn color='black' textcolor='white'>View All</ActionBtn>
+                    <ActionBtn color='black' textcolor='white'>
+                        <a style={{ 'color': 'inherit' }} href="https://github.com/sadi-1010011?tab=repositories">view all</a>
+                    </ActionBtn>
                 </div>
             </div>
         </section>

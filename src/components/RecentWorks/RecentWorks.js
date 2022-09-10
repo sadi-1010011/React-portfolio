@@ -41,7 +41,9 @@ export default function RecentWorks() {
                     </div>
                     <div className='row p-3'>
                         <div className='col-12'>
-                            <ActionBtn color='darkcyan' textcolor='white'>View All</ActionBtn>
+                            <ActionBtn color='darkcyan' textcolor='white'>
+                                <a style={{ 'color': 'inherit' }} href="https://github.com/sadi-1010011?tab=repositories">view all</a>
+                            </ActionBtn>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@ export default function TechStack() {
                 <div className="techstack-wrapper">
 
                     {
-                        techStackData.map((tech, index) => <TechStackCard key={index} logo={tech.logo} title={tech.title} />)
+                        techStackData.map((tech, index) => <TechStackCard key={index} logo={tech.logo} title={tech.title} link={tech.link} />)
                     }
                     
                 {/* <ActionBtn color='#426184' textcolor='white'>...</ActionBtn> */}

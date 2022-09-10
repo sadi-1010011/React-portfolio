@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import gitIcon from '../../img/githubLogoWhite.png';
 import downloadIcon from '../../img/download.png';
-import CV from './MyResume.pdf';
+import CV from './Muhammed_Sadiq_Resume.pdf';
 import './Header.css';
 
 export default function Header() {
@@ -49,8 +49,12 @@ export default function Header() {
                     {   
                         isNavOpen &&
                         (<ul className='header-items-wrapper'>
-                            <li className='header-item'><span>projects</span></li>
-                            <li onClick={ downloadCV } className='header-item'><span>CV</span><img id='' src={downloadIcon} alt='downloadIcon' /></li>
+                            <li className='header-item'>
+                                <a style={{ 'color': 'white', 'fontWeight': 'bold' }} href='https://api.whatsapp.com/send?phone=918593022512'>
+                                    <span>contact</span>
+                                </a>
+                            </li>
+                            <li onClick={ downloadCV } className='header-item'><span style={{ 'fontWeight': 'bold' }}>CV</span><img id='' src={downloadIcon} alt='downloadIcon' /></li>
                             {/* <li className='header-item'><span>contact</span></li> */}
                         </ul>)
                     }

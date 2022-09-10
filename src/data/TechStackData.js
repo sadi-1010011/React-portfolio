@@ -13,15 +13,15 @@ import logoGIT from "../img/techLogo/logo_git.svg";
 // import logoEXPRESS from "../img/techLogo/";
 
 const techStackData = [
-    { logo: logoHTML, title: 'Html' },
-    { logo: logoCSS, title: 'Css' },
-    { logo: logoJS, title: 'JavaScript' },
-    { logo: logoBOOTSTRAP, title: 'Bootstrap' },
-    { logo: logoREACT, title: 'ReactJs' },
-    { logo: logoGIT, title: 'Git' },
-    { logo: logoMONGODB, title: 'MongoDB' },
-    { logo: logoNODE, title: 'NodeJs' },
-    { logo: logoPYTHON, title: 'Python' },
+    { logo: logoHTML, title: 'Html', link: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5' },
+    { logo: logoCSS, title: 'Css', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
+    { logo: logoJS, title: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+    { logo: logoBOOTSTRAP, title: 'Bootstrap', link: 'https://getbootstrap.com/' },
+    { logo: logoREACT, title: 'ReactJs', link: 'https://reactjs.org/' },
+    { logo: logoGIT, title: 'Git', link: 'https://git-scm.com/' },
+    { logo: logoMONGODB, title: 'MongoDB', link: 'https://www.mongodb.com/' },
+    { logo: logoNODE, title: 'NodeJs', link: 'https://nodejs.org/' },
+    { logo: logoPYTHON, title: 'Python', link: 'https://www.python.org/' },
     // { logo: logoNPM, title: 'NPM' },
 ];
 

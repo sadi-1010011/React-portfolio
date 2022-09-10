@@ -23,7 +23,7 @@ a { text-decoration: none; }
 }
 
 .projectCard:hover .project-thumbnail {
-    transform: rotate3d(1, 1, 1, 55deg);
+    transform: rotate3d(1, 1, 1, 33deg);
 }
 
 .project-info-wrapper {

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.82035970.css",
-    "main.js": "/React-portfolio/static/js/main.59c13c9c.js",
+    "main.css": "/React-portfolio/static/css/main.534d061f.css",
+    "main.js": "/React-portfolio/static/js/main.de63e840.js",
     "static/media/design5.png": "/React-portfolio/static/media/design5.73510b7fd610182e9ffa.png",
     "static/media/design3.png": "/React-portfolio/static/media/design3.cbd0b81e164c3d568206.png",
     "static/media/design2.png": "/React-portfolio/static/media/design2.de80544114174933b4c5.png",
@@ -10,7 +10,7 @@
     "static/media/design1.png": "/React-portfolio/static/media/design1.6a6711cbe9ffa48b2b45.png",
     "static/media/avatar.jpg": "/React-portfolio/static/media/avatar.a50d11fde1976ffb8e11.jpg",
     "static/media/wavebg.png": "/React-portfolio/static/media/wavebg.47d9102b6a97435cad07.png",
-    "static/media/Muhammed_Sadiq_Resume.pdf": "/React-portfolio/static/media/Muhammed_Sadiq_Resume.de71df1125729fe2efc2.pdf",
+    "static/media/Muhammed_Sadiq_Resume.pdf": "/React-portfolio/static/media/Muhammed_Sadiq_Resume.580dd60dc435facd96e2.pdf",
     "static/media/favicon-typer.png": "/React-portfolio/static/media/favicon-typer.ec5986e927b4193d1372.png",
     "static/media/favicon-solochatter.png": "/React-portfolio/static/media/favicon-solochatter.ceef9b4a08577deb58d7.png",
     "static/media/githubLogoWhite.png": "/React-portfolio/static/media/githubLogoWhite.65a029dd14ae5c405656.png",
@@ -24,11 +24,11 @@
     "static/media/logo_git.svg": "/React-portfolio/static/media/logo_git.aeeb13ab71f0fa41e8bb99688f96cfdd.svg",
     "static/media/logo_mongodb.svg": "/React-portfolio/static/media/logo_mongodb.47e00448cce0d74fc7c012f67d6982ca.svg",
     "static/media/logo_javascript.svg": "/React-portfolio/static/media/logo_javascript.b561c63179195aea872a24c5895c7f45.svg",
-    "main.82035970.css.map": "/React-portfolio/static/css/main.82035970.css.map",
-    "main.59c13c9c.js.map": "/React-portfolio/static/js/main.59c13c9c.js.map"
+    "main.534d061f.css.map": "/React-portfolio/static/css/main.534d061f.css.map",
+    "main.de63e840.js.map": "/React-portfolio/static/js/main.de63e840.js.map"
   },
   "entrypoints": [
-    "static/css/main.82035970.css",
-    "static/js/main.59c13c9c.js"
+    "static/css/main.534d061f.css",
+    "static/js/main.de63e840.js"
   ]
 }
